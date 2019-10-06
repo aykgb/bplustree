@@ -1,19 +1,17 @@
-B+Tree
-======
+# B+Tree
+A minimal B+Tree implementation for millions (even billions) of key-value storage based on Posix.
 
-A minimal B+Tree implementation for key-value storage.
+## Branch
+[in-memory](https://github.com/begeekmyfriend/bplustree/tree/in-memory) for learning and debugging.
 
-Demo
-----
-
+## Demo
 ```shell
 ./demo_build.sh
 ```
 
-Code Coverage Test
-------------------
+## Code Coverage Test
 
-**Note:** Do NOT load an existing index file with same name for this testing!
+**Note:** You need to `rm /tmp/coverage.index*` first for this testing!
 
 ```shell
 ./coverage_build.sh
